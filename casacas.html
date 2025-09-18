@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Casacas — UrbanWear Demo</title>
+  <meta name="description" content="Casacas — 5 ejemplos. Demo de tienda UrbanWear.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a href="index.html" class="brand"><div class="logo">UW</div><div class="brand-text"><strong>UrbanWear</strong><span class="tag">Casacas</span></div></a>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="casacas.html" class="active">Casacas</a>
+        <a href="chompas.html">Chompas</a>
+        <a href="pantalones.html">Pantalones</a>
+        <a href="zapatillas.html">Zapatillas</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn ghost" id="view-cart-2">Carrito <span id="cart-count-2">0</span></button>
+        <button class="btn primary">📲 WhatsApp</button>
+        <button class="burger" id="burger-2" aria-label="menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section card">
+      <h1>Casacas — Colección destacada</h1>
+      <p class="muted">Aquí tienes cinco ejemplos de casacas, cada una con foto, descripción y precio. Perfecto para presentar a clientes cómo se verían sus productos.</p>
+
+      <div class="grid cols-5 products-list">
+        <article class="product">
+          <img src="assets/1.png" alt="Casaca Negra Clásica">
+          <h3>Casaca Negra Clásica</h3>
+          <p>Forro interno, corte moderno y bolsillo interior. Perfecta para clima templado.</p>
+          <div class="price">S/ 120.00</div>
+          <button class="btn add" data-id="casaca-1">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/2.png" alt="Casaca Roja Deportiva">
+          <h3>Casaca Roja Deportiva</h3>
+          <p>Tela transpirable, capucha ajustable y cierre resistente.</p>
+          <div class="price">S/ 135.00</div>
+          <button class="btn add" data-id="casaca-2">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/3.png" alt="Casaca Azul Denim">
+          <h3>Casaca Azul Denim</h3>
+          <p>Acabado desgastado controlado y costuras reforzadas.</p>
+          <div class="price">S/ 160.00</div>
+          <button class="btn add" data-id="casaca-3">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/4.png" alt="Casaca Beige Casual">
+          <h3>Casaca Beige Casual</h3>
+          <p>Ajuste relajado, varios bolsillos y forro interior suave.</p>
+          <div class="price">S/ 110.00</div>
+          <button class="btn add" data-id="casaca-4">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/5.png" alt="Casaca Impermeable">
+          <h3>Casaca Impermeable</h3>
+          <p>Membrana repelente al agua, costuras selladas y capucha plegable.</p>
+          <div class="price">S/ 150.00</div>
+          <button class="btn add" data-id="casaca-5">comprar</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer small">
+    <div class="wrap">
+      <div>© 2025 UrbanWear — Casacas</div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float">📲</a>
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img alt="ampliada"><button class="lb-close" aria-label="cerrar">✕</button></div>
+  <script src="script.js" defer></script>
+</body>
+</html>

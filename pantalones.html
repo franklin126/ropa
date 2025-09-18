@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pantalones — UrbanWear Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a href="index.html" class="brand"><div class="logo">UW</div><div class="brand-text"><strong>UrbanWear</strong><span class="tag">Pantalones</span></div></a>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="casacas.html">Casacas</a>
+        <a href="chompas.html">Chompas</a>
+        <a href="pantalones.html" class="active">Pantalones</a>
+        <a href="zapatillas.html">Zapatillas</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn ghost">Carrito</button>
+        <button class="btn primary">📲 WhatsApp</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section card">
+      <h1>Pantalones — 5 estilos</h1>
+      <p class="muted">Ejemplos de pantalones: jeans, joggers y más.</p>
+
+      <div class="grid cols-5 products-list">
+        <article class="product">
+          <img src="assets/Jeans.jpg" alt="Jeans Azul Clásico">
+          <h3>Jeans Azul Clásico</h3>
+          <p>Material resistente, corte clásico y cómodo.</p>
+          <div class="price">S/ 40.00</div>
+          <button class="btn add" data-id="pant-1">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/beige.png" alt="Pantalón Beige Casual">
+          <h3>Pantalón Beige Casual</h3>
+          <p>Ligero y fresco, ideal para climas cálidos.</p>
+          <div class="price">S/ 55.00</div>
+          <button class="btn add" data-id="pant-2">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/rasgado.png" alt="Jeans Desgastados">
+          <h3>Jeans Desgastados</h3>
+          <p>Look urbano con detalles rasgados controlados.</p>
+          <div class="price">S/ 50.00</div>
+          <button class="btn add" data-id="pant-3">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/negro.png" alt="Pantalón Negro Slim">
+          <h3>Pantalón Negro Slim</h3>
+          <p>Ideal para una apariencia moderna y estilizada.</p>
+          <div class="price">S/ 50.00</div>
+          <button class="btn add" data-id="pant-4">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/deporte.png" alt="Joggers Deportivos">
+          <h3>Joggers Deportivos</h3>
+          <p>Stretch y confort para actividad física o casa.</p>
+          <div class="price">S/ 30.00</div>
+          <button class="btn add" data-id="pant-5">comprar</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer small"><div class="wrap">© 2025 UrbanWear — Pantalones</div></footer>
+  <a class="whatsapp-float">📲</a>
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img alt="ampliada"><button class="lb-close" aria-label="cerrar">✕</button></div>
+  <script src="script.js" defer></script>
+</body>
+</html>

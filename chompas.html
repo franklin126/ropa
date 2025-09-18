@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chompas — UrbanWear Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a href="index.html" class="brand"><div class="logo">UW</div><div class="brand-text"><strong>UrbanWear</strong><span class="tag">Chompas</span></div></a>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="casacas.html">Casacas</a>
+        <a href="chompas.html" class="active">Chompas</a>
+        <a href="pantalones.html">Pantalones</a>
+        <a href="zapatillas.html">Zapatillas</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn ghost">Carrito</button>
+        <button class="btn primary">📲 WhatsApp</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section card">
+      <h1>Chompas — Colección de ejemplo</h1>
+      <p class="muted">Cinco prendas de ejemplo para la categoría Chompas.</p>
+
+      <div class="grid cols-5 products-list">
+        <article class="product">
+          <img src="assets/c1.png" alt="Chompa Crema">
+          <h3>Chompa Crema</h3>
+          <p>Tejido fino y elegante para mantener calor sin perder estilo.</p>
+          <div class="price">S/ 85.00</div>
+          <button class="btn add" data-id="chompa-1">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/c2.png" alt="Chompa Gris Oversize">
+          <h3>Chompa Gris Oversize</h3>
+          <p>Relajada, con caída amplia y muy cómoda.</p>
+          <div class="price">S/ 95.00</div>
+          <button class="btn add" data-id="chompa-2">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/c3.png" alt="Chompa Rayas Pastel">
+          <h3>Chompa Rayas Pastel</h3>
+          <p>Colorida y suave, ideal para looks primaverales.</p>
+          <div class="price">S/ 100.00</div>
+          <button class="btn add" data-id="chompa-3">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/c4.png" alt="Chompa Negra Cuello Alto">
+          <h3>Chompa Negra Cuello Alto</h3>
+          <p>Acabado premium y cuello alto para mayor abrigo.</p>
+          <div class="price">S/ 110.00</div>
+          <button class="btn add" data-id="chompa-4">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/c5.png" alt="Chompa Azul Marino">
+          <h3>Chompa Azul Marino</h3>
+          <p>Clásica y combinable con múltiples estilos.</p>
+          <div class="price">S/ 90.00</div>
+          <button class="btn add" data-id="chompa-5">comprar</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer small"><div class="wrap">© 2025 UrbanWear — Chompas</div></footer>
+  <a class="whatsapp-float">📲</a>
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img alt="ampliada"><button class="lb-close" aria-label="cerrar">✕</button></div>
+  <script src="script.js" defer></script>
+</body>
+</html>

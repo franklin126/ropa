@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UrbanWear — Tienda Demo Profesional</title>
+  <meta name="description" content="Demo profesional de tienda de ropa — ideal para mostrar a clientes cómo quedaría su web. Subpáginas: Casacas, Chompas, Pantalones, Zapatillas.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a href="index.html" class="brand">
+        <div class="logo">UW</div>
+        <div class="brand-text">
+          <strong>UrbanWear</strong>
+          <span class="tag">Diseño web • Tienda demo</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="casacas.html">Casacas</a>
+        <a href="chompas.html">Chompas</a>
+        <a href="pantalones.html">Pantalones</a>
+        <a href="zapatillas.html">Zapatillas</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn ghost" id="view-cart">Carrito <span id="cart-count">0</span></button>
+        <button class="btn primary">📲 WhatsApp</button>
+        <button class="burger" id="burger" aria-label="menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PORTADA PROFESIONAL -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-left">
+        <h1 class="hero-title">Diseños urbanos — calidad y estilo</h1>
+        <p class="hero-sub">Página de Ejemplo: Diseño web moderno y funcional.</p>
+
+        <div class="hero-ctas">
+          <a href="#catalogo" class="btn cta">Ver catálogo</a>
+          <a href="casacas.html" class="btn ghost">Explorar casacas</a>
+        </div>
+
+        <ul class="features">
+          <li>✅ pagina personalizada</li>
+          <li>✅ Subpáginas por categoría</li>
+        </ul>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <img src="assets/logo.png" alt="Look urbano" loading="lazy">
+          <div class="hero-card-info">
+            <strong>Logo de la tienda</strong>
+            <span>descripción</span>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div><strong>120+</strong><span>Productos demostrativos</span></div>
+          <div><strong>Funciona</strong><span> pc • Tablet • celular</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTROS / CATALOGO -->
+  <main class="wrap" id="catalogo">
+    <section class="section card">
+      <div class="section-head">
+        <h2>Catálogo completo — Ejemplos variados</h2>
+        <p class="muted">Filtra por categoría o navega a las subpáginas para ver 5 ejemplos en cada tipo.</p>
+      </div>
+
+      <div class="controls">
+        <div class="search">
+          <input type="text" id="search" placeholder="Buscar por nombre o descripción...">
+        </div>
+        <div class="filters">
+          <button class="chip active" data-filter="all">Todos</button>
+          <button class="chip" data-filter="casaca">Casacas</button>
+          <button class="chip" data-filter="chompa">Chompas</button>
+          <button class="chip" data-filter="pantalon">Pantalones</button>
+          <button class="chip" data-filter="zapatilla">Zapatillas</button>
+        </div>
+      </div>
+
+      <div class="grid cols-4" id="product-grid">
+      </div>
+    </section>
+
+    <section class="section two-cols">
+      <div class="card">
+        <h3>¿Por qué usar esta plantilla demo?</h3>
+        <ul>
+          <li>Estructura clara para presentar a clientes (home + subpáginas por categoría).</li>
+          <li>Interfaz profesional y limpia — fácil de personalizar con sus colores y fotos.</li>
+          <li>Widgets visuales que dan confianza: carrito, lightbox, filtros y busqueda.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section class="section card">
+      <h3>Galería</h3>
+      <p class="muted">Imágenes de ejemplo — haz click para ampliar.</p>
+      <div class="gallery" id="mini-gallery">
+        <img src="assets/1.png" data-large="assets/1.png" alt="Gallery 1">
+        <img src="assets/c3.png" data-large="assets/c3.png" alt="Gallery 3">
+        <img src="assets/blaco.jpg" data-large="assets/blaco.jpg" alt="Gallery 4">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <strong>UrbanWear — Demo</strong>
+          <p class="muted">Plantilla de muestra para ver como quedaria tu pagina.</p>
+        </div>
+        <div>
+          <strong>Servicios</strong>
+          <ul class="plain-list">
+            <li>Diseño web</li>
+            <li>Páginas de destino</li>
+            <li>Tienda online básica</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Contacto</strong>
+          <p class="muted">WhatsApp: 914 522 586</p>
+        </div>
+      </div>
+
+      <div class="legal">UrbanWear — Demo creada por Franklin</div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" aria-hidden="true">📲</a>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img alt="ampliada"><button class="lb-close" aria-label="cerrar">✕</button></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

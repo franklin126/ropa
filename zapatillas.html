@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Zapatillas — UrbanWear Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a href="index.html" class="brand"><div class="logo">UW</div><div class="brand-text"><strong>UrbanWear</strong><span class="tag">Zapatillas</span></div></a>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="casacas.html">Casacas</a>
+        <a href="chompas.html">Chompas</a>
+        <a href="pantalones.html">Pantalones</a>
+        <a href="zapatillas.html" class="active">Zapatillas</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn ghost">Carrito</button>
+        <button class="btn primary">📲 WhatsApp</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section card">
+      <h1>Zapatillas — Selección</h1>
+      <p class="muted">Cinco ejemplos de zapatillas pensadas para distintos estilos.</p>
+
+      <div class="grid cols-5 products-list">
+        <article class="product">
+          <img src="assets/blaco.jpg" alt="Zapatillas Blancas">
+          <h3>Zapatillas Blancas</h3>
+          <p>Minimalistas, combinan con todo.</p>
+          <div class="price">S/ 80.00</div>
+          <button class="btn add" data-id="zap-1"></button>
+        </article>
+
+        <article class="product">
+          <img src="assets/Urbanas.png" alt="Zapatillas Negras Urbanas">
+          <h3>Zapatillas Negras Urbanas</h3>
+          <p>Robustas y con suela reforzada.</p>
+          <div class="price">S/ 80.00</div>
+          <button class="btn add" data-id="zap-2">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&q=80&w=900" alt="Zapatillas Rojas Running">
+          <h3>Zapatillas Rojas Running</h3>
+          <p>Ligera amortiguación pensada para deporte.</p>
+          <div class="price">S/ 190.00</div>
+          <button class="btn add" data-id="zap-3">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/hola.png" alt="Zapatillas Azules Retro">
+          <h3>Zapatillas Azules Retro</h3>
+          <p>Estética vintage con tecnología moderna.</p>
+          <div class="price">S/ 90.00</div>
+          <button class="btn add" data-id="zap-4">comprar</button>
+        </article>
+
+        <article class="product">
+          <img src="assets/blaco.png" alt="Zapatillas Grises Minimal">
+          <h3>Zapatillas Grises Minimal</h3>
+          <p>Diseño neutro y acabado premium.</p>
+          <div class="price">S/ 160.00</div>
+          <button class="btn add" data-id="zap-5">comprar</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer small"><div class="wrap">© 2025 UrbanWear — Zapatillas</div></footer>
+  <a class="whatsapp-float">📲</a>
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img alt="ampliada"><button class="lb-close" aria-label="cerrar">✕</button></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
